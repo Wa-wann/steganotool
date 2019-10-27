@@ -21,3 +21,18 @@ It unhide data from FILENAME file to a secret.txt file
 
 python lsb.py unhide -f FILENAME -s 120
 It unhide only the first 120 bits from FILENAME file to a secret.txt file
+
+![Base image]("landscape.png")
+```bash
+python lsb.py hide -f landscape.png -t "Nobody can't find me if nobody know I'm using lsb method"
+```
+![Modified image]("new_landscape.png")
+
+```bash
+python lsb.py unhide -f new_landscape.png -s 448
+```
+
+```
+result : secret.txt
+Nobody can't find me if nobody know I'm using lsb method
+```
