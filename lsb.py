@@ -46,9 +46,3 @@ elif args.action == "unhide":
             lsb.unhideText(args.file)
         else:
             print(f"selected size {args.size} isn't correct")
-
-# text = "BBB"
-
-# lsb.hideText("landscape.png",text)
-# print(f"base : {}")
-# lsb.unhideText("new_landscape.png")
