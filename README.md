@@ -1,6 +1,6 @@
 # steganotool
 
-The aims of this tool is to hide and unhide text from a png image.
+The aims of this tool is to hide and unhide text from a png image. It has been tested on Linux System.
 
 ```positional arguments:
   action                hide or unhide. It is used to select if you hide or unhide a text into an image
