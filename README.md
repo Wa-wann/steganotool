@@ -2,7 +2,7 @@
 
 The aims of this tool is to hide and unhide text from a png image.
 
-positional arguments:
+```positional arguments:
   action                hide or unhide. It is used to select if you hide or unhide a text into an image
 
 optional arguments:
@@ -21,6 +21,7 @@ It unhide data from FILENAME file to a secret.txt file
 
 python lsb.py unhide -f FILENAME -s 120
 It unhide only the first 120 bits from FILENAME file to a secret.txt file
+```
 
 ![Base image](landscape.png)
 ```bash
